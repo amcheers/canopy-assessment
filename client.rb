@@ -7,8 +7,6 @@ module Github
     # It has a method called `get` that accepts a URL and returns the response
     # from the Github API
 
-    TOKEN = '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'
-
     def initialize(token, repo_url)
       # implement this method
       @token = token
